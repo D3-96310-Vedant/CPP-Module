@@ -36,7 +36,7 @@ int menulist(void ){
     printf("\n1. Accept Date");
     printf("\n2. print Date");
     printf("\n3. initialize date");
-    printf("Enter choice :");
+    printf("\nEnter choice :");
     scanf("%d",&choice);
     return choice;
 }
@@ -56,8 +56,7 @@ int main(){
              initData(&d1);
         }
         else {
-           
-
+        printf("Invalid Choice");
         }
     }
      return 0;
